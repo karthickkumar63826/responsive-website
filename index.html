@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navigation bar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <header>
+        <i class="fa-solid fa-bars sideBars"></i>
+        <span class="logo">
+          <a href=""><i class="fa-solid fa-ship"></i> Shipping.</a></span
+        >
+        <div class="menus">
+          <div class="navbar-toggle">
+            <span>
+              <a href=""><i class="fa-solid fa-ship"></i></a>
+            </span>
+            <i class="fa-solid fa-xmark sideBarClose"></i>
+          </div>
+          <ul class="nav-links">
+            <li><a data-hover="Home" href="#">Home</a></li>
+            <li><a data-hover="Blog" href="#">Blog</a></li>
+            <li><a data-hover="Resume" href="#">Resume</a></li>
+            <li><a data-hover="About" href="#">About</a></li>
+            <li><a data-hover="Content" href="#">Content</a></li>
+          </ul>
+        </div>
+        <div class="darkLight">
+          <i class="fa fa-sun-o sun"></i>
+          <i class="fa fa-moon-o moon"></i>
+        </div>
+      </header>
+    </nav>
+    <div class="container"></div>
+    <script
+      src="https://kit.fontawesome.com/4df9e5aaa0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
