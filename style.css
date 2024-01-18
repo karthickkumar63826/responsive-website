@@ -9,9 +9,9 @@
 }
 :root {
   --body-color: #fff;
-  --nav-color: #007bff;
+  --nav-color: #006778;
   --text-color: white;
-  --sideNav-color: #18191a;
+  --sideNav-color: #006778;
   --content-color: #18191a;
 }
 body.dark {
